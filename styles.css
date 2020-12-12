@@ -1,0 +1,47 @@
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.image-tea {
+	width: 32%;
+	margin: 0 0 40px;
+	display: block;
+	height: auto;
+}
+.wrapper {
+	background: #ffffffa1;
+	border-radius: 20px;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 30px
+}
+
+body {
+	background-image: url(tea-cups-healthy-drinking-health-2560x1600-wallpaper.jpg);
+	padding: 50px;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+}
+h1 {
+	text-align: center;
+}
+.video {
+	text-align: center;
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+ul a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a:hover {
+	color: #2E8B57;
+}
+a {
+	color: black;
+}
